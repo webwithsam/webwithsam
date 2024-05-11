@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: red;
+}
+.big{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    height:600px ;
+    margin: 30px auto;
+   /*  border: 2px solid blue ; */
+    background-color: white;
+    align-items: center;
+}
+.twitt,.face,input,button{
+    height: 40px;
+    width: 250px;
+  /*   border: 2px solid blue; */
+}
+.one{
+    position: relative;
+    height: 40px;
+}
+.one p{
+ position: absolute;
+    font-size: 40px;
+    top: 35px;
+    left: -130px;
+
+    
+}
+.line{
+    position: absolute;
+    width: 25px;
+    height: 5px;
+    background-color: red;
+    left: -130px;
+    top: 73px;
+}
+input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(83, 80, 80);
+}
+input:hover{
+    border-bottom: 2px solid rgb(212, 24, 24); 
+}
+button{
+    background-color: rgb(137, 54, 54);
+    font-weight: 700;
+    font-size: 28px;
+    border: none;
+}
+button:hover{
+    background-color: red;
+    font-size: 30px;
+}
+
+ i{  
+    font-size: 30px;
+    position: absolute; 
+    top: 5px;  
+}
+.face p ,.twitt p{
+    position: absolute;
+left: 50px;
+top: 10px;
+color: aliceblue;
+
+
+
+}
+.face ,.twitt{
+    background-color: blue;
+    position: relative;
+} 
+.face {
+    background-color: rgb(218, 48, 25); 
+}
+@media only screen and (max-width:508px){
+    .twitt,.face,input,button{
+        height: 40px;
+        width: 100%;
+}
+.one{
+    position: relative;
+    height: 40px;
+}
+.one p{
+ position: absolute;
+    font-size: 40px;
+    top: 35px;
+    left: -50px;    
+}
+.line{
+    position: absolute;
+    width: 25px;
+    height: 5px;
+    background-color: red;
+    left: -50px;
+    top: 73px;
+}
+.name1{
+    padding-left: 20px;
+}
+.face {
+   height: 50px;
+}
+
+
+}
