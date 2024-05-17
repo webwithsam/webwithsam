@@ -1,0 +1,145 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+    background-image: url("1.jpeg");
+    height: fit-content;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+header{
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+    position:sticky;
+    z-index: 1;
+}
+header p{
+    position: absolute;
+    padding-top: 2px;
+    font-size: 40px;
+    font-weight: bolder;
+    /* border: 2px solid red; */
+
+}
+/* main{
+    height:fit-content;
+} */
+a{
+    color: rgb(112, 240, 93);
+    text-decoration: none;
+
+}
+ul{
+  position:absolute;
+  right: 0;
+  top: 0;
+  font-size: 40px;
+/* border: 2px solid red ; */
+
+}
+ul li{
+  /*  border: 2px solid red; */
+    display: inline;
+    list-style: none;
+  
+    /* background-color: black; */
+}
+section{
+    width: 50%;
+    height: fit-content;
+    margin:100px auto ;
+    position: relative;
+    margin-bottom: 500px;
+   
+}
+section .maelezo{
+    font-size: 60px;
+    color: rgb(10, 243, 99);
+    font-weight: 900;
+    background-color: rgba(0, 0, 0, 0.42);
+   text-align: center;
+   border-radius: 30px;
+   
+}
+section .nijue ,section .jiunge{
+  margin-top: 90px; 
+    position: absolute;
+    height: 50px;
+    width: 100px;
+text-align: center;
+}
+.nijue p ,.jiunge p{
+    font-style: italic;
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+
+.jiunge{
+    right: 0;
+    background-color: rgb(13, 148, 60);
+    color: black;
+}
+.nijue:hover{
+    background-color: rgb(14, 157, 38);
+    color: black;  
+    cursor: pointer;
+}
+.jiunge:hover{
+     
+    cursor: pointer;
+}
+ul li:hover{
+    background-color: black;
+}
+@media only screen and (max-width:800px) {
+    /* header p{
+        visibility: hidden;
+    } */ 
+    body{
+    background-image: url("1.jpeg");
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+
+}
+header{
+    margin-top: 50px;
+    height: 100px;
+  position: fixed;
+  display: flex;
+    
+    
+}
+header p{
+    position: fixed;
+    top:0;
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: blue;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    /* border: 2px solid red; */
+
+}
+section{
+    width: 100%;
+    margin:250px auto ;
+    position: relative;
+    margin-bottom: 10px;
+   
+}
+
+
+    
+}
